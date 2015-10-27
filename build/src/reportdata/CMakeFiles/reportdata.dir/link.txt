@@ -1,0 +1,2 @@
+/usr/bin/ar cr libreportdata.a  CMakeFiles/reportdata.dir/reportdata.c.o
+/usr/bin/ranlib libreportdata.a

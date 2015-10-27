@@ -1,0 +1,253 @@
+The system is: Linux - 3.13.0-24-generic - i686
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/EmbedSky/4.3.3/bin/arm-linux-gcc 
+Build flags: -Wall;-O2;-Os;-D_REENTRANT;-msoft-float
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/work/wxb/gwfile/IntelligentGrid/build/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/EmbedSky/4.3.3/bin/arm-linux-g++ 
+Build flags: -Wall;-O2;-Os;-D_REENTRANT;-msoft-float
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/work/wxb/gwfile/IntelligentGrid/build/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+arm-none-linux-gnueabi-gcc (Sourcery G++ Lite 2009q1-176) 4.3.3
+Copyright (C) 2008 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/work/wxb/gwfile/IntelligentGrid/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1082478212/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1082478212.dir/build.make CMakeFiles/cmTryCompileExec1082478212.dir/build
+make[1]: Entering directory `/home/work/wxb/gwfile/IntelligentGrid/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/work/wxb/gwfile/IntelligentGrid/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1082478212.dir/testCCompiler.c.o
+/opt/EmbedSky/4.3.3/bin/arm-linux-gcc    -o CMakeFiles/cmTryCompileExec1082478212.dir/testCCompiler.c.o   -c /home/work/wxb/gwfile/IntelligentGrid/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec1082478212
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1082478212.dir/link.txt --verbose=1
+/opt/EmbedSky/4.3.3/bin/arm-linux-gcc       CMakeFiles/cmTryCompileExec1082478212.dir/testCCompiler.c.o  -o cmTryCompileExec1082478212 -rdynamic 
+make[1]: Leaving directory `/home/work/wxb/gwfile/IntelligentGrid/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/work/wxb/gwfile/IntelligentGrid/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec982272005/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec982272005.dir/build.make CMakeFiles/cmTryCompileExec982272005.dir/build
+make[1]: Entering directory `/home/work/wxb/gwfile/IntelligentGrid/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/work/wxb/gwfile/IntelligentGrid/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec982272005.dir/CMakeCCompilerABI.c.o
+/opt/EmbedSky/4.3.3/bin/arm-linux-gcc    -o CMakeFiles/cmTryCompileExec982272005.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec982272005
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec982272005.dir/link.txt --verbose=1
+/opt/EmbedSky/4.3.3/bin/arm-linux-gcc     -v CMakeFiles/cmTryCompileExec982272005.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec982272005 -rdynamic  
+Using built-in specs.
+Target: arm-none-linux-gnueabi
+Configured with: /scratch/maxim/arm-lite/src-4.3-arm-none-linux-gnueabi-lite/gcc-4.3/configure --build=i686-pc-linux-gnu --host=i686-pc-linux-gnu --target=arm-none-linux-gnueabi --enable-threads --disable-libmudflap --disable-libssp --disable-libstdcxx-pch --with-gnu-as --with-gnu-ld --with-specs='%{funwind-tables|fno-unwind-tables|mabi=*|ffreestanding|nostdlib:;:-funwind-tables}' --enable-languages=c,c++ --enable-shared --enable-symvers=gnu --enable-__cxa_atexit --with-pkgversion='Sourcery G++ Lite 2009q1-176' --with-bugurl=https://support.codesourcery.com/GNUToolchain/ --disable-nls --prefix=/opt/codesourcery --with-sysroot=/opt/codesourcery/arm-none-linux-gnueabi/libc --with-build-sysroot=/scratch/maxim/arm-lite/install-4.3-arm-none-linux-gnueabi-lite/arm-none-linux-gnueabi/libc --with-gmp=/scratch/maxim/arm-lite/obj-4.3-arm-none-linux-gnueabi-lite/host-libs-2009q1-176-arm-none-linux-gnueabi-i686-pc-linux-gnu/usr --with-mpfr=/scratch/maxim/arm-lite/obj-4.3-arm-none-linux-gnueabi-lite/host-libs-2009q1-176-arm-none-linux-gnueabi-i686-pc-linux-gnu/usr --disable-libgomp --enable-poison-system-directories --with-build-time-tools=/scratch/maxim/arm-lite/install-4.3-arm-none-linux-gnueabi-lite/arm-none-linux-gnueabi/bin --with-build-time-tools=/scratch/maxim/arm-lite/install-4.3-arm-none-linux-gnueabi-lite/arm-none-linux-gnueabi/bin
+Thread model: posix
+gcc version 4.3.3 (Sourcery G++ Lite 2009q1-176) 
+COMPILER_PATH=/opt/EmbedSky/4.3.3/bin/../libexec/gcc/arm-none-linux-gnueabi/4.3.3/:/opt/EmbedSky/4.3.3/bin/../libexec/gcc/:/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/../../../../arm-none-linux-gnueabi/bin/
+LIBRARY_PATH=/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t/:/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/../../../../arm-none-linux-gnueabi/lib/armv4t/:/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/:/opt/EmbedSky/4.3.3/bin/../lib/gcc/:/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/../../../../arm-none-linux-gnueabi/lib/:/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/lib/:/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/
+COLLECT_GCC_OPTIONS='-march=armv4t' '-v' '-o' 'cmTryCompileExec982272005' '-rdynamic' '-funwind-tables'
+ /opt/EmbedSky/4.3.3/bin/../libexec/gcc/arm-none-linux-gnueabi/4.3.3/collect2 --sysroot=/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -o cmTryCompileExec982272005 /opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crt1.o /opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crti.o /opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t/crtbegin.o -L/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t -L/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/../../../../arm-none-linux-gnueabi/lib/armv4t -L/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3 -L/opt/EmbedSky/4.3.3/bin/../lib/gcc -L/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/../../../../arm-none-linux-gnueabi/lib -L/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/lib -L/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib CMakeFiles/cmTryCompileExec982272005.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t/crtend.o /opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crtn.o
+make[1]: Leaving directory `/home/work/wxb/gwfile/IntelligentGrid/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/work/wxb/gwfile/IntelligentGrid/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec982272005/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec982272005.dir/build.make CMakeFiles/cmTryCompileExec982272005.dir/build]
+  ignore line: [make[1]: Entering directory `/home/work/wxb/gwfile/IntelligentGrid/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/work/wxb/gwfile/IntelligentGrid/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec982272005.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/EmbedSky/4.3.3/bin/arm-linux-gcc    -o CMakeFiles/cmTryCompileExec982272005.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec982272005]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec982272005.dir/link.txt --verbose=1]
+  ignore line: [/opt/EmbedSky/4.3.3/bin/arm-linux-gcc     -v CMakeFiles/cmTryCompileExec982272005.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec982272005 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: arm-none-linux-gnueabi]
+  ignore line: [Configured with: /scratch/maxim/arm-lite/src-4.3-arm-none-linux-gnueabi-lite/gcc-4.3/configure --build=i686-pc-linux-gnu --host=i686-pc-linux-gnu --target=arm-none-linux-gnueabi --enable-threads --disable-libmudflap --disable-libssp --disable-libstdcxx-pch --with-gnu-as --with-gnu-ld --with-specs='%{funwind-tables|fno-unwind-tables|mabi=*|ffreestanding|nostdlib:]
+  ignore line: [:-funwind-tables}' --enable-languages=c,c++ --enable-shared --enable-symvers=gnu --enable-__cxa_atexit --with-pkgversion='Sourcery G++ Lite 2009q1-176' --with-bugurl=https://support.codesourcery.com/GNUToolchain/ --disable-nls --prefix=/opt/codesourcery --with-sysroot=/opt/codesourcery/arm-none-linux-gnueabi/libc --with-build-sysroot=/scratch/maxim/arm-lite/install-4.3-arm-none-linux-gnueabi-lite/arm-none-linux-gnueabi/libc --with-gmp=/scratch/maxim/arm-lite/obj-4.3-arm-none-linux-gnueabi-lite/host-libs-2009q1-176-arm-none-linux-gnueabi-i686-pc-linux-gnu/usr --with-mpfr=/scratch/maxim/arm-lite/obj-4.3-arm-none-linux-gnueabi-lite/host-libs-2009q1-176-arm-none-linux-gnueabi-i686-pc-linux-gnu/usr --disable-libgomp --enable-poison-system-directories --with-build-time-tools=/scratch/maxim/arm-lite/install-4.3-arm-none-linux-gnueabi-lite/arm-none-linux-gnueabi/bin --with-build-time-tools=/scratch/maxim/arm-lite/install-4.3-arm-none-linux-gnueabi-lite/arm-none-linux-gnueabi/bin]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.3.3 (Sourcery G++ Lite 2009q1-176) ]
+  ignore line: [COMPILER_PATH=/opt/EmbedSky/4.3.3/bin/../libexec/gcc/arm-none-linux-gnueabi/4.3.3/:/opt/EmbedSky/4.3.3/bin/../libexec/gcc/:/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/../../../../arm-none-linux-gnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t/:/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/../../../../arm-none-linux-gnueabi/lib/armv4t/:/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/:/opt/EmbedSky/4.3.3/bin/../lib/gcc/:/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/../../../../arm-none-linux-gnueabi/lib/:/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/lib/:/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=armv4t' '-v' '-o' 'cmTryCompileExec982272005' '-rdynamic' '-funwind-tables']
+  link line: [ /opt/EmbedSky/4.3.3/bin/../libexec/gcc/arm-none-linux-gnueabi/4.3.3/collect2 --sysroot=/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -o cmTryCompileExec982272005 /opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crt1.o /opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crti.o /opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t/crtbegin.o -L/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t -L/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/../../../../arm-none-linux-gnueabi/lib/armv4t -L/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3 -L/opt/EmbedSky/4.3.3/bin/../lib/gcc -L/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/../../../../arm-none-linux-gnueabi/lib -L/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/lib -L/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib CMakeFiles/cmTryCompileExec982272005.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t/crtend.o /opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crtn.o]
+    arg [/opt/EmbedSky/4.3.3/bin/../libexec/gcc/arm-none-linux-gnueabi/4.3.3/collect2] ==> ignore
+    arg [--sysroot=/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec982272005] ==> ignore
+    arg [/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crt1.o] ==> ignore
+    arg [/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crti.o] ==> ignore
+    arg [/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t/crtbegin.o] ==> ignore
+    arg [-L/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t] ==> dir [/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t]
+    arg [-L/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/../../../../arm-none-linux-gnueabi/lib/armv4t] ==> dir [/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/../../../../arm-none-linux-gnueabi/lib/armv4t]
+    arg [-L/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3] ==> dir [/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3]
+    arg [-L/opt/EmbedSky/4.3.3/bin/../lib/gcc] ==> dir [/opt/EmbedSky/4.3.3/bin/../lib/gcc]
+    arg [-L/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/../../../../arm-none-linux-gnueabi/lib] ==> dir [/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/../../../../arm-none-linux-gnueabi/lib]
+    arg [-L/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/lib] ==> dir [/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/lib]
+    arg [-L/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib] ==> dir [/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib]
+    arg [CMakeFiles/cmTryCompileExec982272005.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t/crtend.o] ==> ignore
+    arg [/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t] ==> [/opt/EmbedSky/4.3.3/lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t]
+  collapse library dir [/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/../../../../arm-none-linux-gnueabi/lib/armv4t] ==> [/opt/EmbedSky/4.3.3/arm-none-linux-gnueabi/lib/armv4t]
+  collapse library dir [/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3] ==> [/opt/EmbedSky/4.3.3/lib/gcc/arm-none-linux-gnueabi/4.3.3]
+  collapse library dir [/opt/EmbedSky/4.3.3/bin/../lib/gcc] ==> [/opt/EmbedSky/4.3.3/lib/gcc]
+  collapse library dir [/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/../../../../arm-none-linux-gnueabi/lib] ==> [/opt/EmbedSky/4.3.3/arm-none-linux-gnueabi/lib]
+  collapse library dir [/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/lib] ==> [/opt/EmbedSky/4.3.3/arm-none-linux-gnueabi/libc/armv4t/lib]
+  collapse library dir [/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib] ==> [/opt/EmbedSky/4.3.3/arm-none-linux-gnueabi/libc/armv4t/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/opt/EmbedSky/4.3.3/lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t;/opt/EmbedSky/4.3.3/arm-none-linux-gnueabi/lib/armv4t;/opt/EmbedSky/4.3.3/lib/gcc/arm-none-linux-gnueabi/4.3.3;/opt/EmbedSky/4.3.3/lib/gcc;/opt/EmbedSky/4.3.3/arm-none-linux-gnueabi/lib;/opt/EmbedSky/4.3.3/arm-none-linux-gnueabi/libc/armv4t/lib;/opt/EmbedSky/4.3.3/arm-none-linux-gnueabi/libc/armv4t/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/work/wxb/gwfile/IntelligentGrid/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4191691091/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4191691091.dir/build.make CMakeFiles/cmTryCompileExec4191691091.dir/build
+make[1]: Entering directory `/home/work/wxb/gwfile/IntelligentGrid/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/work/wxb/gwfile/IntelligentGrid/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4191691091.dir/testCXXCompiler.cxx.o
+/opt/EmbedSky/4.3.3/bin/arm-linux-g++     -o CMakeFiles/cmTryCompileExec4191691091.dir/testCXXCompiler.cxx.o -c /home/work/wxb/gwfile/IntelligentGrid/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec4191691091
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4191691091.dir/link.txt --verbose=1
+/opt/EmbedSky/4.3.3/bin/arm-linux-g++        CMakeFiles/cmTryCompileExec4191691091.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec4191691091 -rdynamic 
+make[1]: Leaving directory `/home/work/wxb/gwfile/IntelligentGrid/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/work/wxb/gwfile/IntelligentGrid/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec954081576/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec954081576.dir/build.make CMakeFiles/cmTryCompileExec954081576.dir/build
+make[1]: Entering directory `/home/work/wxb/gwfile/IntelligentGrid/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/work/wxb/gwfile/IntelligentGrid/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec954081576.dir/CMakeCXXCompilerABI.cpp.o
+/opt/EmbedSky/4.3.3/bin/arm-linux-g++     -o CMakeFiles/cmTryCompileExec954081576.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec954081576
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec954081576.dir/link.txt --verbose=1
+/opt/EmbedSky/4.3.3/bin/arm-linux-g++      -v CMakeFiles/cmTryCompileExec954081576.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec954081576 -rdynamic  
+Using built-in specs.
+Target: arm-none-linux-gnueabi
+Configured with: /scratch/maxim/arm-lite/src-4.3-arm-none-linux-gnueabi-lite/gcc-4.3/configure --build=i686-pc-linux-gnu --host=i686-pc-linux-gnu --target=arm-none-linux-gnueabi --enable-threads --disable-libmudflap --disable-libssp --disable-libstdcxx-pch --with-gnu-as --with-gnu-ld --with-specs='%{funwind-tables|fno-unwind-tables|mabi=*|ffreestanding|nostdlib:;:-funwind-tables}' --enable-languages=c,c++ --enable-shared --enable-symvers=gnu --enable-__cxa_atexit --with-pkgversion='Sourcery G++ Lite 2009q1-176' --with-bugurl=https://support.codesourcery.com/GNUToolchain/ --disable-nls --prefix=/opt/codesourcery --with-sysroot=/opt/codesourcery/arm-none-linux-gnueabi/libc --with-build-sysroot=/scratch/maxim/arm-lite/install-4.3-arm-none-linux-gnueabi-lite/arm-none-linux-gnueabi/libc --with-gmp=/scratch/maxim/arm-lite/obj-4.3-arm-none-linux-gnueabi-lite/host-libs-2009q1-176-arm-none-linux-gnueabi-i686-pc-linux-gnu/usr --with-mpfr=/scratch/maxim/arm-lite/obj-4.3-arm-none-linux-gnueabi-lite/host-libs-2009q1-176-arm-none-linux-gnueabi-i686-pc-linux-gnu/usr --disable-libgomp --enable-poison-system-directories --with-build-time-tools=/scratch/maxim/arm-lite/install-4.3-arm-none-linux-gnueabi-lite/arm-none-linux-gnueabi/bin --with-build-time-tools=/scratch/maxim/arm-lite/install-4.3-arm-none-linux-gnueabi-lite/arm-none-linux-gnueabi/bin
+Thread model: posix
+gcc version 4.3.3 (Sourcery G++ Lite 2009q1-176) 
+COMPILER_PATH=/opt/EmbedSky/4.3.3/bin/../libexec/gcc/arm-none-linux-gnueabi/4.3.3/:/opt/EmbedSky/4.3.3/bin/../libexec/gcc/:/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/../../../../arm-none-linux-gnueabi/bin/
+LIBRARY_PATH=/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t/:/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/../../../../arm-none-linux-gnueabi/lib/armv4t/:/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/:/opt/EmbedSky/4.3.3/bin/../lib/gcc/:/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/../../../../arm-none-linux-gnueabi/lib/:/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/lib/:/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/
+COLLECT_GCC_OPTIONS='-march=armv4t' '-v' '-o' 'cmTryCompileExec954081576' '-rdynamic' '-shared-libgcc' '-funwind-tables'
+ /opt/EmbedSky/4.3.3/bin/../libexec/gcc/arm-none-linux-gnueabi/4.3.3/collect2 --sysroot=/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -o cmTryCompileExec954081576 /opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crt1.o /opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crti.o /opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t/crtbegin.o -L/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t -L/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/../../../../arm-none-linux-gnueabi/lib/armv4t -L/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3 -L/opt/EmbedSky/4.3.3/bin/../lib/gcc -L/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/../../../../arm-none-linux-gnueabi/lib -L/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/lib -L/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib CMakeFiles/cmTryCompileExec954081576.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t/crtend.o /opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crtn.o
+make[1]: Leaving directory `/home/work/wxb/gwfile/IntelligentGrid/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/work/wxb/gwfile/IntelligentGrid/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec954081576/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec954081576.dir/build.make CMakeFiles/cmTryCompileExec954081576.dir/build]
+  ignore line: [make[1]: Entering directory `/home/work/wxb/gwfile/IntelligentGrid/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/work/wxb/gwfile/IntelligentGrid/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec954081576.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/EmbedSky/4.3.3/bin/arm-linux-g++     -o CMakeFiles/cmTryCompileExec954081576.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec954081576]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec954081576.dir/link.txt --verbose=1]
+  ignore line: [/opt/EmbedSky/4.3.3/bin/arm-linux-g++      -v CMakeFiles/cmTryCompileExec954081576.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec954081576 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: arm-none-linux-gnueabi]
+  ignore line: [Configured with: /scratch/maxim/arm-lite/src-4.3-arm-none-linux-gnueabi-lite/gcc-4.3/configure --build=i686-pc-linux-gnu --host=i686-pc-linux-gnu --target=arm-none-linux-gnueabi --enable-threads --disable-libmudflap --disable-libssp --disable-libstdcxx-pch --with-gnu-as --with-gnu-ld --with-specs='%{funwind-tables|fno-unwind-tables|mabi=*|ffreestanding|nostdlib:]
+  ignore line: [:-funwind-tables}' --enable-languages=c,c++ --enable-shared --enable-symvers=gnu --enable-__cxa_atexit --with-pkgversion='Sourcery G++ Lite 2009q1-176' --with-bugurl=https://support.codesourcery.com/GNUToolchain/ --disable-nls --prefix=/opt/codesourcery --with-sysroot=/opt/codesourcery/arm-none-linux-gnueabi/libc --with-build-sysroot=/scratch/maxim/arm-lite/install-4.3-arm-none-linux-gnueabi-lite/arm-none-linux-gnueabi/libc --with-gmp=/scratch/maxim/arm-lite/obj-4.3-arm-none-linux-gnueabi-lite/host-libs-2009q1-176-arm-none-linux-gnueabi-i686-pc-linux-gnu/usr --with-mpfr=/scratch/maxim/arm-lite/obj-4.3-arm-none-linux-gnueabi-lite/host-libs-2009q1-176-arm-none-linux-gnueabi-i686-pc-linux-gnu/usr --disable-libgomp --enable-poison-system-directories --with-build-time-tools=/scratch/maxim/arm-lite/install-4.3-arm-none-linux-gnueabi-lite/arm-none-linux-gnueabi/bin --with-build-time-tools=/scratch/maxim/arm-lite/install-4.3-arm-none-linux-gnueabi-lite/arm-none-linux-gnueabi/bin]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.3.3 (Sourcery G++ Lite 2009q1-176) ]
+  ignore line: [COMPILER_PATH=/opt/EmbedSky/4.3.3/bin/../libexec/gcc/arm-none-linux-gnueabi/4.3.3/:/opt/EmbedSky/4.3.3/bin/../libexec/gcc/:/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/../../../../arm-none-linux-gnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t/:/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/../../../../arm-none-linux-gnueabi/lib/armv4t/:/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/:/opt/EmbedSky/4.3.3/bin/../lib/gcc/:/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/../../../../arm-none-linux-gnueabi/lib/:/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/lib/:/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=armv4t' '-v' '-o' 'cmTryCompileExec954081576' '-rdynamic' '-shared-libgcc' '-funwind-tables']
+  link line: [ /opt/EmbedSky/4.3.3/bin/../libexec/gcc/arm-none-linux-gnueabi/4.3.3/collect2 --sysroot=/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -o cmTryCompileExec954081576 /opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crt1.o /opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crti.o /opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t/crtbegin.o -L/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t -L/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/../../../../arm-none-linux-gnueabi/lib/armv4t -L/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3 -L/opt/EmbedSky/4.3.3/bin/../lib/gcc -L/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/../../../../arm-none-linux-gnueabi/lib -L/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/lib -L/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib CMakeFiles/cmTryCompileExec954081576.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t/crtend.o /opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crtn.o]
+    arg [/opt/EmbedSky/4.3.3/bin/../libexec/gcc/arm-none-linux-gnueabi/4.3.3/collect2] ==> ignore
+    arg [--sysroot=/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec954081576] ==> ignore
+    arg [/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crt1.o] ==> ignore
+    arg [/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crti.o] ==> ignore
+    arg [/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t/crtbegin.o] ==> ignore
+    arg [-L/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t] ==> dir [/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t]
+    arg [-L/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/../../../../arm-none-linux-gnueabi/lib/armv4t] ==> dir [/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/../../../../arm-none-linux-gnueabi/lib/armv4t]
+    arg [-L/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3] ==> dir [/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3]
+    arg [-L/opt/EmbedSky/4.3.3/bin/../lib/gcc] ==> dir [/opt/EmbedSky/4.3.3/bin/../lib/gcc]
+    arg [-L/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/../../../../arm-none-linux-gnueabi/lib] ==> dir [/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/../../../../arm-none-linux-gnueabi/lib]
+    arg [-L/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/lib] ==> dir [/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/lib]
+    arg [-L/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib] ==> dir [/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib]
+    arg [CMakeFiles/cmTryCompileExec954081576.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t/crtend.o] ==> ignore
+    arg [/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t] ==> [/opt/EmbedSky/4.3.3/lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t]
+  collapse library dir [/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/../../../../arm-none-linux-gnueabi/lib/armv4t] ==> [/opt/EmbedSky/4.3.3/arm-none-linux-gnueabi/lib/armv4t]
+  collapse library dir [/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3] ==> [/opt/EmbedSky/4.3.3/lib/gcc/arm-none-linux-gnueabi/4.3.3]
+  collapse library dir [/opt/EmbedSky/4.3.3/bin/../lib/gcc] ==> [/opt/EmbedSky/4.3.3/lib/gcc]
+  collapse library dir [/opt/EmbedSky/4.3.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.3.3/../../../../arm-none-linux-gnueabi/lib] ==> [/opt/EmbedSky/4.3.3/arm-none-linux-gnueabi/lib]
+  collapse library dir [/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/lib] ==> [/opt/EmbedSky/4.3.3/arm-none-linux-gnueabi/libc/armv4t/lib]
+  collapse library dir [/opt/EmbedSky/4.3.3/bin/../arm-none-linux-gnueabi/libc/armv4t/usr/lib] ==> [/opt/EmbedSky/4.3.3/arm-none-linux-gnueabi/libc/armv4t/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/opt/EmbedSky/4.3.3/lib/gcc/arm-none-linux-gnueabi/4.3.3/armv4t;/opt/EmbedSky/4.3.3/arm-none-linux-gnueabi/lib/armv4t;/opt/EmbedSky/4.3.3/lib/gcc/arm-none-linux-gnueabi/4.3.3;/opt/EmbedSky/4.3.3/lib/gcc;/opt/EmbedSky/4.3.3/arm-none-linux-gnueabi/lib;/opt/EmbedSky/4.3.3/arm-none-linux-gnueabi/libc/armv4t/lib;/opt/EmbedSky/4.3.3/arm-none-linux-gnueabi/libc/armv4t/usr/lib]
+  implicit fwks: []
+
+

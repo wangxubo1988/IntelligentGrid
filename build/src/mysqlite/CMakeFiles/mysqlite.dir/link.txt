@@ -1,0 +1,2 @@
+/usr/bin/ar cr libmysqlite.a  CMakeFiles/mysqlite.dir/mysqlite.c.o
+/usr/bin/ranlib libmysqlite.a

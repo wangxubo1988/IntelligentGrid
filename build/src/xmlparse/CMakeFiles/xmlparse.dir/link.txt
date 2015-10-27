@@ -1,0 +1,2 @@
+/usr/bin/ar cr libxmlparse.a  CMakeFiles/xmlparse.dir/xmlparse.c.o
+/usr/bin/ranlib libxmlparse.a

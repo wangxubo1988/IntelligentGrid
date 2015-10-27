@@ -1,0 +1,101 @@
+cmake_minimum_required(VERSION 2.6)
+
+message(STATUS "Current dir : --- ${CMAKE_CURRENT_SOURCE_DIR}")
+
+set(CROSS_PLATFORM arm)
+if(CROSS_PLATFORM STREQUAL x86)
+        set(CMAKE_C_COMPILER		"/usr/bin/gcc")
+        set(CMAKE_CXX_COMPILER	"/usr/bin/g++")
+        set(CMAKE_ASM_COMPILER	"/usr/bin/gcc")
+				set(LIBS_DIR /usr/lib/)
+        set(CMAKE_C_FLAGS "-Wall -O2 -Os -D_REENTRANT")
+        set(CMAKE_CXX_FLAGS "-Wall -O2 -Os -D_REENTRANT")
+        message(STATUS "===> Cross Platform : x86")
+elseif(CROSS_PLATFORM STREQUAL arm)
+        set(CMAKE_C_COMPILER		"/opt/EmbedSky/4.3.3/bin/arm-linux-gcc")
+        set(CMAKE_CXX_COMPILER	"/opt/EmbedSky/4.3.3/bin/arm-linux-g++")
+        set(CMAKE_ASM_COMPILER	"/opt/EmbedSky/4.3.3/bin/arm-linux-gcc")
+				set(LIBS_DIR ${${PROJECT_NAME}_SOURCE_DIR}/libs/)
+        set(CMAKE_C_FLAGS "-Wall -O2 -Os -D_REENTRANT -msoft-float")
+        set(CMAKE_CXX_FLAGS "-Wall -O2 -Os -D_REENTRANT -msoft-float")
+        message(STATUS "===> Cross Platform : arm")
+endif()
+
+
+#set(CMAKE_EXE_LINKER_FLAGS "-static")
+set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -s")
+
+if (NOT PROJECT_NAME)
+        project(IntelligentGrid C CXX ASM)
+        message(STATUS "Project name : --- ${PROJECT_NAME}")
+endif(NOT PROJECT_NAME)
+
+set(ALL_SRC_COMPILE no)
+
+
+include_directories(src/app src/FuncPKG src/uart libs/include	
+src/mysqlite src/xmlparse src/IEC103 src/DeviceMgmt src/DataPKG 
+src/mylog src/mysocket src/datastore src/reportdata src/watchdog)
+
+
+message(STATUS "CMAKE_EXE_LINKER_FLAGS : ${CMAKE_EXE_LINKER_FLAGS}")
+
+ADD_SUBDIRECTORY(src/FuncPKG)
+ADD_SUBDIRECTORY(src/uart)
+ADD_SUBDIRECTORY(src/mysqlite)
+ADD_SUBDIRECTORY(src/xmlparse)
+ADD_SUBDIRECTORY(src/IEC103)
+ADD_SUBDIRECTORY(src/watchdog)
+ADD_SUBDIRECTORY(src/DeviceMgmt)
+ADD_SUBDIRECTORY(src/DataPKG)
+ADD_SUBDIRECTORY(src/mylog)
+ADD_SUBDIRECTORY(src/mysocket)
+ADD_SUBDIRECTORY(src/datastore)
+ADD_SUBDIRECTORY(src/reportdata)
+
+set(SRC_DIR ${CMAKE_CURRENT_SOURCE_DIR}/src/app/)
+set(mainsrc ${SRC_DIR}main.c ${SRC_DIR}MyThread.c
+${SRC_DIR}SystemInit.c ${SRC_DIR}DataCollection.c ${SRC_DIR}Data_handle.c  ${SRC_DIR}tag_manage.c)
+
+add_executable(${PROJECT_NAME} ${mainsrc})
+
+if(CROSS_PLATFORM STREQUAL x86)
+	set(MY_LIBS_DIR ${LIBS_DIR})
+elseif(CROSS_PLATFORM STREQUAL arm)
+	set(MY_LIBS_DIR ${${PROJECT_NAME}_SOURCE_DIR}/libs/lib)
+endif()
+message(STATUS "MY_LIBS_DIR : --- ${MY_LIBS_DIR}")
+
+
+target_link_libraries(${PROJECT_NAME} reportdata)
+target_link_libraries(${PROJECT_NAME} DataPKG)
+
+if(CROSS_PLATFORM STREQUAL x86)
+	target_link_libraries(${PROJECT_NAME} ${MY_LIBS_DIR}/libxml2.so.2)
+elseif(CROSS_PLATFORM STREQUAL arm)
+	target_link_libraries(${PROJECT_NAME} ${MY_LIBS_DIR}/libxml2.so)
+endif()
+target_link_libraries(${PROJECT_NAME} xmlparse)
+target_link_libraries(${PROJECT_NAME} uart)
+target_link_libraries(${PROJECT_NAME} pthread)
+target_link_libraries(${PROJECT_NAME} DeviceMgmt)
+target_link_libraries(${PROJECT_NAME} datastore)
+target_link_libraries(${PROJECT_NAME} mysqlite)
+target_link_libraries(${PROJECT_NAME} mylog)
+
+if(CROSS_PLATFORM STREQUAL x86)
+	target_link_libraries(${PROJECT_NAME} ${MY_LIBS_DIR}/liblog4c.so.3.1.0)
+	target_link_libraries(${PROJECT_NAME} ${MY_LIBS_DIR}/libsqlite3.so.0.8.6)
+	target_link_libraries(${PROJECT_NAME} ${MY_LIBS_DIR}/libmpc.so.2.0.0)
+elseif(CROSS_PLATFORM STREQUAL arm)
+	target_link_libraries(${PROJECT_NAME} ${MY_LIBS_DIR}/liblog4c.so)
+	target_link_libraries(${PROJECT_NAME} ${MY_LIBS_DIR}/libsqlite3.so)
+	target_link_libraries(${PROJECT_NAME} ${MY_LIBS_DIR}/libmpr.so)
+endif()
+target_link_libraries(${PROJECT_NAME} IEC103)
+target_link_libraries(${PROJECT_NAME} watchdog)
+target_link_libraries(${PROJECT_NAME} mysocket)
+target_link_libraries(${PROJECT_NAME} FuncPKG)
+target_link_libraries(${PROJECT_NAME} m)
+
+SET(EXECUTABLE_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR}/bin)

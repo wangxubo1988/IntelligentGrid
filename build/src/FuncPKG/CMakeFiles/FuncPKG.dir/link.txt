@@ -1,0 +1,2 @@
+/usr/bin/ar cr libFuncPKG.a  CMakeFiles/FuncPKG.dir/FuncPKG.c.o
+/usr/bin/ranlib libFuncPKG.a

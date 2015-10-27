@@ -1,0 +1,2 @@
+/usr/bin/ar cr libmysocket.a  CMakeFiles/mysocket.dir/mysocket.c.o
+/usr/bin/ranlib libmysocket.a

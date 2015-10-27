@@ -1,0 +1,2 @@
+/usr/bin/ar cr libDeviceMgmt.a  CMakeFiles/DeviceMgmt.dir/DeviceMgmt.c.o
+/usr/bin/ranlib libDeviceMgmt.a

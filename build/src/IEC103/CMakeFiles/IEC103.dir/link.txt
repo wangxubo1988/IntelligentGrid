@@ -1,0 +1,2 @@
+/usr/bin/ar cr libIEC103.a  CMakeFiles/IEC103.dir/IEC103.c.o
+/usr/bin/ranlib libIEC103.a

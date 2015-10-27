@@ -1,0 +1,2 @@
+/usr/bin/ar cr libDataPKG.a  CMakeFiles/DataPKG.dir/DataPKG.c.o
+/usr/bin/ranlib libDataPKG.a

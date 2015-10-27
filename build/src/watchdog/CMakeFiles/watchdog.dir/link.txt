@@ -1,0 +1,2 @@
+/usr/bin/ar cr libwatchdog.a  CMakeFiles/watchdog.dir/watchdog.c.o
+/usr/bin/ranlib libwatchdog.a

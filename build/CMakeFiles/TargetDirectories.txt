@@ -1,0 +1,13 @@
+/home/work/wxb/gwfile/IntelligentGrid/build/src/DataPKG/CMakeFiles/DataPKG.dir
+/home/work/wxb/gwfile/IntelligentGrid/build/src/DeviceMgmt/CMakeFiles/DeviceMgmt.dir
+/home/work/wxb/gwfile/IntelligentGrid/build/src/FuncPKG/CMakeFiles/FuncPKG.dir
+/home/work/wxb/gwfile/IntelligentGrid/build/src/IEC103/CMakeFiles/IEC103.dir
+/home/work/wxb/gwfile/IntelligentGrid/build/CMakeFiles/IntelligentGrid.dir
+/home/work/wxb/gwfile/IntelligentGrid/build/src/datastore/CMakeFiles/datastore.dir
+/home/work/wxb/gwfile/IntelligentGrid/build/src/mylog/CMakeFiles/mylog.dir
+/home/work/wxb/gwfile/IntelligentGrid/build/src/mysocket/CMakeFiles/mysocket.dir
+/home/work/wxb/gwfile/IntelligentGrid/build/src/mysqlite/CMakeFiles/mysqlite.dir
+/home/work/wxb/gwfile/IntelligentGrid/build/src/reportdata/CMakeFiles/reportdata.dir
+/home/work/wxb/gwfile/IntelligentGrid/build/src/uart/CMakeFiles/uart.dir
+/home/work/wxb/gwfile/IntelligentGrid/build/src/watchdog/CMakeFiles/watchdog.dir
+/home/work/wxb/gwfile/IntelligentGrid/build/src/xmlparse/CMakeFiles/xmlparse.dir

@@ -1,0 +1,3 @@
+FILE(REMOVE_RECURSE
+  "libIEC103.a"
+)

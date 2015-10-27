@@ -1,0 +1,2 @@
+/usr/bin/ar cr libdatastore.a  CMakeFiles/datastore.dir/datastore.c.o
+/usr/bin/ranlib libdatastore.a
